@@ -72,6 +72,7 @@ body {
 #grid {
     display: grid;
     grid-template-columns: 135px 1fr;
+    gap:2px;
 }
 
 /* 메뉴바 */
@@ -79,20 +80,20 @@ body {
     margin: 0.5rem;
     width: 125px;
 }
-ul {
+.Game-MENU-bar ul {
     cursor: pointer;
     list-style-type: none;
     padding: 0.3rem;
     width: 125px;
     background-color: rgb(43, 42, 42);
 }
-li a {
+li {
     display: block;
     color: white;
     padding: 8px 16px;
     text-decoration: none;
 }
-li a:hover:not(.active) {
+li:hover:not(.active) {
     background-color: rgb(70, 69, 69);
 }
 #editbox {
@@ -100,7 +101,8 @@ li a:hover:not(.active) {
     text-align: center; 
     background-color: gray; 
     display: grid ;
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
+    padding: 8px; 
 }
 
 /* 게임 컨텐츠 */
@@ -114,5 +116,38 @@ li a:hover:not(.active) {
 .MenuList input {
     position: absolute;
     top: 12px;
+    margin-left: -16px;
 }
 
+/* Action Game */
+.ContentName{
+    width: 200px;
+    height: 34px;
+    margin: 3px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: antiquewhite;
+    background-color: rgb(43, 42, 42);
+}
+.Game {
+    background-color: rgb(43, 42, 42);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: auto;
+}
+.Game-CoverImg img{
+    border-radius: 10px;
+    width: 94%;
+    height: 90%;
+    margin: 2.5%;
+}
+.Game-CoverImg img:hover{
+    border: solid white;
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: all 0.3s ease;
+}

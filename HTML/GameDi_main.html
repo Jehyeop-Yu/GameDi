@@ -21,23 +21,66 @@
         <div class="Game-MENU">
             <div class="Game-MENU-bar">
                 <ul id='MENU-edit'>
-                    <li id="editbox">
+                    <li id="editbox" style="display: none;">
                         <a onclick="edit()">편집</a>
                         <a onclick="save()">저장</a>
                     </li>
                     <div class="MenuList">
-                        <li><input type="checkbox" style="display: none;"><a href="Action">액션</a></li>
-                        <li><input type="checkbox" style="display: none;"><a href="Sports">스포츠</a></li>
-                        <li><input type="checkbox" style="display: none;"><a href="Racing">레이싱</a></li>
-                        <li><input type="checkbox" style="display: none;"><a href="Indie">인디</a></li>
-                        <li><input type="checkbox" style="display: none;"><a href="Simulation">시뮬레이션</a></li>
-                        <li><input type="checkbox" style="display: none;"><a href="Strategy">전략</a></li>
+                        <li onclick="Action()"><input type="checkbox" style="display: none;">액션</li>
+                        <li><input type="checkbox" style="display: none;">스포츠</li>
+                        <li><input type="checkbox" style="display: none;">레이싱</li>
+                        <li><input type="checkbox" style="display: none;">인디</li>
+                        <li><input type="checkbox" style="display: none;">시뮬레이션</li>
+                        <li><input type="checkbox" style="display: none;">전략</li>
                     </div>
                 </ul>
             </div>
         </div>
         <div class="GameDi-contents">
-            게임 목록 또는 표지
+            <div class="Game-main" style="display: block">
+                <div class="Game-cover">
+                </div>
+            </div>
+            <div class="Game-Action" style="display: none;">
+                <div class="ContentName">ActionGame</div>
+                <div class="Game">
+                    <div class="game1-1">
+                        <a href="Game List/OUTRIDERS.html"onclick="">
+                            <span class="Game-CoverImg"><img src="../IMG/GameCover/OUTRIDERS.jpg" alt="OUTRIDERS-img"></span>
+                        </a>
+                    </div>
+                    <div class="game1-2">
+                        <a href=""onclick="">
+                            <span class="Game-CoverImg"><img src="../IMG/GameCover/Isaac.jpg" alt="Isaac-img"></span>
+                        </a>
+                    </div>
+                    <div class="game1-3">
+                        <a href=""onclick="">
+                            <span class="Game-CoverImg"><img src="../IMG/GameCover/it takes two.jpg" alt="it takes two-img"></span>
+                        </a>
+                    </div>
+                    <div class="game1-4">
+                        <a href=""onclick="">
+                            <span class="Game-CoverImg"><img src="../IMG/GameCover/Grand Theft Auto V.jpg" alt="Grand Theft Auto V-img"></span>
+                        </a>
+                    </div>
+                    <div class="game1-5">
+                        <a href=""onclick="">
+                            <span class="Game-CoverImg"><img src="../IMG/GameCover/CounterStrike.png" alt="CounterStrike-img"></span>
+                        </a>
+                        </div>
+                    <div class="game2-1">
+                        <a href=""onclick="">
+                            <span class="Game-CoverImg"><img src="../IMG/GameCover/Tom Clancy's Rainbow Six.jpg" alt="Tom Clancy's Rainbow Six-img"></span>
+                        </a>
+                        </div>
+                    <div class="game">
+                        <a href=""onclick="">
+                            <span class="Game-CoverImg"><img src="" alt=""></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
