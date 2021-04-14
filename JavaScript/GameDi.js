@@ -7,14 +7,14 @@ var startClick = function(){
 var edit = function(){
     var inputList = document.querySelectorAll('input')
     for(var i=0; i<inputList.length; i++){
-        document.getElementsByTagName('input')[i].style.display="block";
+        inputList[i].style.display="block";
     }
 }
 
 var save = function(){
     var inputList = document.querySelectorAll('input')
     for(var i=0; i<inputList.length; i++){
-        document.getElementsByTagName('input')[i].style.display="none";
+        inputList[i].style.display="none";
     }
 }
 
