@@ -68,7 +68,6 @@ body {
 }
 
 /* 구역나누기 */
-
 #grid {
     display: grid;
     grid-template-columns: 135px 1fr;
@@ -87,9 +86,9 @@ body {
     width: 125px;
     background-color: rgb(43, 42, 42);
 }
-li {
+li{
     display: block;
-    color: white;
+    color: antiquewhite;
     padding: 8px 16px;
     text-decoration: none;
 }
@@ -121,7 +120,7 @@ li:hover:not(.active) {
 
 /* Action Game */
 .ContentName{
-    width: 200px;
+    width: 250px;
     height: 34px;
     margin: 3px;
     border-radius: 15px;

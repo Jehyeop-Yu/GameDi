@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/GameDi_st0.css">
     <script src="../JavaScript/GameDi.js"></script>
+    <script src="../JavaScript/GameDi_list.js"></script>
 </head>
 <body>
     <div class="GameDi-logo">
@@ -26,12 +27,13 @@
                         <a onclick="save()">저장</a>
                     </li>
                     <div class="MenuList">
-                        <li onclick="Action()"><input type="checkbox" style="display: none;">액션</li>
+                        <script>MenuBarList();</script>
+                        <!-- <li onclick="Action()"><input type="checkbox" style="display: none;">액션</li>
                         <li><input type="checkbox" style="display: none;">스포츠</li>
                         <li><input type="checkbox" style="display: none;">레이싱</li>
                         <li><input type="checkbox" style="display: none;">인디</li>
                         <li><input type="checkbox" style="display: none;">시뮬레이션</li>
-                        <li><input type="checkbox" style="display: none;">전략</li>
+                        <li><input type="checkbox" style="display: none;">전략</li> -->
                     </div>
                 </ul>
             </div>
@@ -42,7 +44,7 @@
                 </div>
             </div>
             <div class="Game-Action" style="display: none;">
-                <div class="Game-cover">
+                <div class="Game-Actioncover">
                     <div id="game1"><img src="../IMG/GameCover/OUTRIDERS.jpg"></div>
                     <div id="game2"><img src="../IMG/GameCover/Isaac.jpg"></div>
                     <div id="game3"><img src="../IMG/GameCover/it takes two.jpg"></div>

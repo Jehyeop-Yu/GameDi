@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/GameDi_st0.css">
     <script src="../JavaScript/GameDi.js"></script>
+    <script src="../JavaScript/GameDi_list.js"></script>
 </head>
 <body>
     <div class="GameDi-logo">
@@ -26,12 +27,13 @@
                         <a onclick="save()">저장</a>
                     </li>
                     <div class="MenuList">
-                        <li onclick="Action()"><input type="checkbox" style="display: none;">액션</li>
+                        <script>MenuBarList();</script>
+                        <!-- <li onclick="Action()"><input type="checkbox" style="display: none;">액션</li>
                         <li><input type="checkbox" style="display: none;">스포츠</li>
                         <li><input type="checkbox" style="display: none;">레이싱</li>
                         <li><input type="checkbox" style="display: none;">인디</li>
                         <li><input type="checkbox" style="display: none;">시뮬레이션</li>
-                        <li><input type="checkbox" style="display: none;">전략</li>
+                        <li><input type="checkbox" style="display: none;">전략</li> -->
                     </div>
                 </ul>
             </div>
@@ -68,13 +70,53 @@
                         <a href=""onclick="">
                             <span class="Game-CoverImg"><img src="../IMG/GameCover/CounterStrike.png" alt="CounterStrike-img"></span>
                         </a>
-                        </div>
+                    </div>
                     <div class="game2-1">
                         <a href=""onclick="">
                             <span class="Game-CoverImg"><img src="../IMG/GameCover/Tom Clancy's Rainbow Six.jpg" alt="Tom Clancy's Rainbow Six-img"></span>
                         </a>
-                        </div>
+                    </div>
                     <div class="game">
+                        <a href=""onclick="">
+                            <span class="Game-CoverImg"><img src="" alt=""></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="Game-Sports" style="display: none">
+                <div class="ContentName">SportsGame</div>
+                <div class="Game">
+                    <div class="game1-1">
+                        <a href=""onclick="">
+                            <span class="Game-CoverImg"><img src="" alt=""></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="Game-Racing" style="display: none">
+                <div class="ContentName">RacingGame</div>
+                <div class="Game">
+                    <div class="game1-1">
+                        <a href=""onclick="">
+                            <span class="Game-CoverImg"><img src="" alt=""></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="Game-Indi" style="display: none">
+                <div class="ContentName">ActionGame</div>
+                <div class="Game">
+                    <div class="game1-1">
+                        <a href=""onclick="">
+                            <span class="Game-CoverImg"><img src="" alt=""></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="Game-Simulation" style="display: none">
+                <div class="ContentName">SimulationGame</div>
+                <div class="Game">
+                    <div class="game1-1">
                         <a href=""onclick="">
                             <span class="Game-CoverImg"><img src="" alt=""></span>
                         </a>
